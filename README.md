@@ -61,8 +61,8 @@ class CurrentAccount(Account):
 def main():
     print("=== Banking System Demo ===")
     
-    savings = SavingsAccount("S101", "Prem")
-    current = CurrentAccount("C202", "Chand")
+    savings = SavingsAccount("S101", "mahi")
+    current = CurrentAccount("C202", "mahathi")
 
     for account in (savings, current):
         account.display_info()
